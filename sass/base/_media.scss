@@ -1,0 +1,53 @@
+@media (max-width: 1200px) {
+    .header {
+        margin-right: 5px;
+    }
+    .promo {
+        &__wrapper {
+            margin-right: 5px;
+        }
+    }
+    .advantages {
+        &__wrapper {
+            margin-left: 10px;
+        }
+    }
+    .carousel {
+        margin-left: 5px;
+    }
+    .catalog {
+        .catalog-item {
+            width: 285px;
+        }
+    }
+}
+@media (max-width: 768px) {
+    .header {
+        margin-right: 10px;
+    }
+    .promo {
+        &__wrapper {
+            margin-right: 10px;
+        }
+    }
+    .advantages {
+        &__wrapper {
+            margin-right: 10px;
+        }
+    }
+    .consultation {
+        &__title {
+            padding-left: 15px;
+            font-size: 32px;
+        }
+        &__subtitle {
+            padding-left: 15px;
+        }
+    }
+    .met-foarm {
+        padding-left: 15px;
+    }
+    .carousel {
+        margin-left: 5px;
+    }
+}
